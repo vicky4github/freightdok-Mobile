@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import LottieView from 'lottie-react-native';
 import {View, StyleSheet} from 'react-native';
+
 // import AppTheme from './../common/Theme';
 
 export default class SplashScreen extends Component {
@@ -22,7 +23,7 @@ export default class SplashScreen extends Component {
   render() {
     return (
       <View style={styles.lottieView}>
-        <LottieView source={require('../animations/lotties/baby.json')} autoPlay loop />
+        <LottieView source={require('../animations/lotties/truck.json')} autoPlay loop />
       </View>
     );
   }
@@ -32,6 +33,6 @@ const styles = StyleSheet.create({
   lottieView: {
     width: '100%',
     height: '100%',
-    backgroundColor: 'red'//AppTheme.MAIN_THEME,
+    backgroundColor: 'white'//AppTheme.MAIN_THEME,
   },
 });
